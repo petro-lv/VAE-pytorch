@@ -1,0 +1,14 @@
+NUM_EPOCHS = 10
+DEVICE = 'cuda'
+LEARNING_RATE = 3e-4
+KL_DIV_IMPORTANCE = 0.0001
+BATCH_SIZE = 60
+ROOT_DIR = 'images'
+MODEL_SAVE_DIR = 'trained_models/vae_anime_faces_with_disc.pth'
+LOAD = True
+DISC_IMPORTANCE = 0.001
+
+MODEL_WIDTH = 64
+LATENT_DIM = 128
+SCALING_BLOCKS = 2
+IMG_SIZE = 64
